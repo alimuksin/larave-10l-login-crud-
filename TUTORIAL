@@ -1,0 +1,26 @@
+1. buat controller siswa
+=> php artisan make:controller SiswaController
+
+2. setting route controller siswa
+=> Buka folder routes/web.php Rubah seperti saat membuat loginregister
+
+3. membuat view data, tambah, edit siswa
+=> data = tabel siswa
+=> tambah = form siswa
+=> edit = form siswa
+
+4. membuat tabel siswa
+membuat mgration siswa
+=> php artisan make:migration create_siswas_table
+
+=> buka database/migrations/sreate_siswas_table.php
+rubah function up sesuai tabel yg diinginkan
+
+=> import ke database
+php artisan migrate
+cek database
+
+insert databse / create
+
+untuk menampilkan gambar di storage klaravel :
+php artisan storage:link
